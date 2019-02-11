@@ -118,7 +118,7 @@ hr {
     margin-top: 70px;
 }
 .passphoto:hover {
-    transform: scale(1.8);
+    transform: scale(0.8);
 }
 .myname {
     grid-row: 2;
@@ -214,12 +214,10 @@ hr {
     background-color: #000000;
    
 }
-
 #moreprojects:hover {
     color: #000000;
         
 }
-
 #blinkphoto {
     height: 200px;
     width: 200px;
@@ -227,7 +225,7 @@ hr {
    
 }
 #blinkphoto:hover {
-    transform: scale(1.5);
+    transform: scale(2);
 }
 #surveyshot {
     height: 200px;
@@ -235,7 +233,7 @@ hr {
     transition: transform .2s;
 }
 #surveyshot:hover {
-    transform: scale(1.5);
+    transform: scale(2);
 }
 #tributeshot {
     
@@ -244,7 +242,7 @@ hr {
     transition: transform .2s;
 }
 #tributeshot:hover {
-    transform: scale(1.5);
+    transform: scale(2);
 }
 
 .additionalcontent {
