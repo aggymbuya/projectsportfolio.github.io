@@ -118,7 +118,7 @@ hr {
     margin-top: 70px;
 }
 .passphoto:hover {
-    transform: scale(0.8);
+    transform: scale(0.88);
 }
 .myname {
     grid-row: 2;
