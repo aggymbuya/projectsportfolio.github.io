@@ -11,6 +11,15 @@ body {
     line-height: 1.5;
     font-family: 'Cardo', serif;
 }
+
+/* To make font display very fast */
+
+@font-face {
+    font-family: "Cardo";
+    font-display:auto;
+    src:"https://fonts.googleapis.com/css?family=Cardo";
+}
+
 #navbar {
     position: fixed;
     width: 100%;
