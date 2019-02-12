@@ -77,7 +77,7 @@ p {
     background-color: #353537;
 }
 hr { border: 1px solid #aeacb5;}
- @media (max-height: 50vh) { 
+ @media (max-height: 100%) { 
 .primarycontent {
     display: grid;
     grid-template-columns: repeat(2, 30vw);
