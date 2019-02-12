@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
   theme_color: #353537;
 }
+
 body {
     background-color: #353537;
     color: #c8c8c8;
@@ -11,6 +12,7 @@ body {
     line-height: 1.5;
     font-family: 'Cardo', serif;
 }
+
 #navbar {
     position: fixed;
     width: 100%;
@@ -19,6 +21,7 @@ body {
     margin-left: 65px;
     margin-top: 10px;
 }
+
 li {
     display: inline-block;
     margin-right: 20px;
@@ -33,11 +36,13 @@ li {
     font-display:auto;
     src:"https://fonts.googleapis.com/css?family=Cardo";
 }
+
 a:link {
   color: #191919; 
   background-color: transparent; 
   text-decoration: none;
 }
+
 a:visited {
   color: #191919; 
   background-color: transparent;
@@ -49,11 +54,15 @@ a:hover {
   background-color: #6db432;
   text-decoration: underline;
 }
+
 a:active {
   color: #6db432;
   background-color: transparent;
   text-decoration: underline;
 }
+
+
+
 h1 {
     font-size: 48px;
     color: #6db432;
@@ -76,29 +85,32 @@ p {
     color: #c8c8c8;
     background-color: #353537;
 }
-hr { border: 1px solid #aeacb5;}
 
- @media (max-height: 100vh) { 
+hr {
+    border: 1px solid #aeacb5;
+}
+
+
+  @media only screen and (max-height:100vh) { 
 .primarycontent {
     display: grid;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
     grid-template-areas: "welcome-section welcome-section welcome-section" "myimage myimage myname";
     max-height: 100vh;
-   } 
+    } 
 #welcome-section {
     grid-row: 1;
     grid-column: 1/3;
     grid-area: welcome-section;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
-    max-width: 90vw;
+    width: 90vw;
     top: 0;
-    height: 50vh;
+    height: 65vh;
     padding-top: 5vh;
     margin-left: 60px;
-    border-radius: 5%;
-    
+    border-radius: 5%;    
     border-left: 1.5px solid #8bc064;
     border-right: 1.5px solid #8bc064;
     border-left-style: dashed;
@@ -110,41 +122,43 @@ hr { border: 1px solid #aeacb5;}
     grid-area: myimage;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
-    width: 30vw;
-    height: 70vh;
+    width: 23vw;
+    height: 35vh;
     border-radius: 2%;
-    margin-left: 5px;
+    margin-left: 60px;
     margin-top: 100px;
 }
 .myname {
     grid-row: 2;
     grid-column: 3/3;
-    grid-area: myname;
+    grid-area: myName;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
     width: 50vw;
     height: 70vh;
     border-radius: 2%;
-    margin-left: 350px;
-    margin-top: -400px;}
+    margin-left: 450px;
+    margin-top: -350px;
+    
 }
+      }
 .passphoto {
     width: 200px;
     height: 200px;
     transition: transform .2s;
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: 5px; 
 }
 .passphoto:hover {
     transform: scale(1.8);
-}
+}   
 
 .secondarycontent {
     display: grid;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(3, 10vh);
     grid-template-areas: "projects projects" "blinks survey" "tribute moreprojects";
-    max-height: 40vh;
+    max-height: 110vh;
     }
 #projects {
     grid-row: 3;
@@ -157,7 +171,7 @@ hr { border: 1px solid #aeacb5;}
     margin-left: 60px;
     border-radius: 5%;
     margin-top: 10px;
-    background-color: #353537;
+    background-color: #353537;  
     border-bottom: 1.5px solid #8bc064;
     border-right: 1.5px solid #8bc064;
     border-right-style:dashed;
@@ -223,34 +237,35 @@ hr { border: 1px solid #aeacb5;}
     margin-left: 650px;
     margin-top: -200px;
     background-color: #6db432;
-   
-}
+    } 
 #moreprojects:hover {color: #6db432; }
 #blinkphoto {
     height: 200px;
     width: 200px;
     transition: transform .2s;
 }
-#blinkphoto:hover { transform: scale(1.5);}
+#blinkphoto:hover {transform: scale(1.5);
+}
 #surveyshot {
     height: 200px;
     width: 200px;
     transition: transform .2s;
 }
-#surveyshot:hover { transform: scale(1.5); }
+#surveyshot:hover {transform: scale(1.5);
+}
 #tributeshot {
     height: 200px;
     width: 200px;
     transition: transform .2s;
 }
-#tributeshot:hover { transform: scale(1.5);}
+#tributeshot:hover {transform: scale(1.5);}
 
 .additionalcontent {
     display: grid;
     grid-template-columns: repeat(4, 30vw);
     grid-template-rows: repeat(2, 10vh);
     grid-template-areas: "contact contact contact contact" "github twitter email linkedin";
-    max-height: 50vh;
+    max-height: 100vh;
     }
 .contact {
     grid-row: 6;
@@ -263,8 +278,8 @@ hr { border: 1px solid #aeacb5;}
     height: 53vh;
     margin-left: 60px;
     border-radius: 5%;
-    margin-top: 10px;
-    margin-left: 200px;
+    margin-top: -20px;
+    margin-left: 200px;    
     border-bottom: 1.5px solid #8bc064;
     border-left: 1.5px solid #8bc064;
     border-bottom-style:dashed;
