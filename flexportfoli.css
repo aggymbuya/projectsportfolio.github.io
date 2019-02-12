@@ -93,7 +93,7 @@ hr { border: 1px solid #aeacb5;}
     grid-template-rows: repeat(2, 10vh);
     max-width: 50vw;
     top: 0;
-    max-height: 20vh;
+    max-height: 50vh;
     padding-top: 5vh;
     margin-left: 60px;
     border-radius: 5%;
