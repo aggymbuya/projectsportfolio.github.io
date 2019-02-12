@@ -77,13 +77,13 @@ p {
     background-color: #353537;
 }
 hr { border: 1px solid #aeacb5;}
- @media (max-height: 400px) { 
+ @media (max-height: 200px) { 
 .primarycontent {
     display: grid;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
     grid-template-areas: "welcome-section welcome-section welcome-section" "myimage myimage myname";
-    max-height: 100vh;
+    max-height: 50vh;
    } }
 #welcome-section {
     grid-row: 1;
@@ -128,7 +128,7 @@ hr { border: 1px solid #aeacb5;}
 .myname {
     grid-row: 2;
     grid-column: 3/3;
-    grid-area: myName;
+    grid-area: myname;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
     width: 50vw;
@@ -137,13 +137,12 @@ hr { border: 1px solid #aeacb5;}
     margin-left: 450px;
     margin-top: -400px;}
 
-
 .secondarycontent {
     display: grid;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(3, 10vh);
     grid-template-areas: "projects projects" "blinks survey" "tribute moreprojects";
-    max-height: 100vh;
+    max-height: 80vh;
     }
 #projects {
     grid-row: 3;
@@ -226,40 +225,31 @@ hr { border: 1px solid #aeacb5;}
    
 }
 #moreprojects:hover {color: #6db432; }
-
 #blinkphoto {
     height: 200px;
     width: 200px;
     transition: transform .2s;
-   
 }
-#blinkphoto:hover {
-    transform: scale(1.5);
-}
+#blinkphoto:hover { transform: scale(1.5);}
 #surveyshot {
     height: 200px;
     width: 200px;
     transition: transform .2s;
 }
-#surveyshot:hover {
-    transform: scale(1.5);
-}
+#surveyshot:hover { transform: scale(1.5); }
 #tributeshot {
-    
     height: 200px;
     width: 200px;
     transition: transform .2s;
 }
-#tributeshot:hover {
-    transform: scale(1.5);
-}
+#tributeshot:hover { transform: scale(1.5);}
 
 .additionalcontent {
     display: grid;
     grid-template-columns: repeat(4, 30vw);
     grid-template-rows: repeat(2, 10vh);
     grid-template-areas: "contact contact contact contact" "github twitter email linkedin";
-    max-height: 100vh;
+    max-height: 80vh;
     }
 .contact {
     grid-row: 6;
