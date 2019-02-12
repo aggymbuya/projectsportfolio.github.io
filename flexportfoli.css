@@ -77,13 +77,13 @@ p {
     background-color: #353537;
 }
 hr { border: 1px solid #aeacb5;}
- @media (max-height: 200px) { 
+ @media (max-height: 100px) { 
 .primarycontent {
     display: grid;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
     grid-template-areas: "welcome-section welcome-section welcome-section" "myimage myimage myname";
-    max-height: 50vh;
+    max-height: 40vh;
    } }
 #welcome-section {
     grid-row: 1;
@@ -93,7 +93,7 @@ hr { border: 1px solid #aeacb5;}
     grid-template-rows: repeat(2, 10vh);
     width: 90vw;
     top: 0;
-    min-height: 20vh;
+    max-height: 20vh;
     padding-top: 5vh;
     margin-left: 60px;
     border-radius: 5%;
@@ -142,7 +142,7 @@ hr { border: 1px solid #aeacb5;}
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(3, 10vh);
     grid-template-areas: "projects projects" "blinks survey" "tribute moreprojects";
-    max-height: 80vh;
+    max-height: 40vh;
     }
 #projects {
     grid-row: 3;
@@ -249,7 +249,7 @@ hr { border: 1px solid #aeacb5;}
     grid-template-columns: repeat(4, 30vw);
     grid-template-rows: repeat(2, 10vh);
     grid-template-areas: "contact contact contact contact" "github twitter email linkedin";
-    max-height: 80vh;
+    max-height: 50vh;
     }
 .contact {
     grid-row: 6;
