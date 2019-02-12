@@ -5,7 +5,7 @@ html {
 
 body {
     background-color: #353537;
-    color: #7b7b7b;
+    color: #c8c8c8;
     position:relative;
     object-position: top;
     font-size: 20px;
@@ -38,13 +38,13 @@ li {
 }
 
 a:link {
-  color: #eeebf2; 
+  color: #191919; 
   background-color: transparent; 
   text-decoration: none;
 }
 
 a:visited {
-  color: #eeebf2; 
+  color: #191919; 
   background-color: transparent;
   text-decoration: none;
 }
@@ -79,6 +79,11 @@ h3 {
     color: #6db432;
     font-size: 24px;
     text-align: center;
+}
+
+p {
+    color: #c8c8c8;
+    background-color: #353537;
 }
 
 hr {
@@ -332,7 +337,7 @@ hr {
     grid-area: email;
     grid-template-columns: repeat(4, 30vw);
     grid-template-rows: repeat(2, 10vh);
-    width: 10vw;
+    width: 15vw;
     height: 5vh;
     border-radius: 2%;
     margin-left: 450px;
