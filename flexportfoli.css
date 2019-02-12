@@ -92,7 +92,7 @@ hr { border: 1px solid #aeacb5;}
     grid-area: welcome-section;
     grid-template-columns: repeat(2, 30vw);
     grid-template-rows: repeat(2, 10vh);
-    max-width: 50vw;
+    max-width: 90vw;
     top: 0;
     height: 50vh;
     padding-top: 5vh;
@@ -114,7 +114,7 @@ hr { border: 1px solid #aeacb5;}
     height: 70vh;
     border-radius: 2%;
     margin-left: 5px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .myname {
     grid-row: 2;
