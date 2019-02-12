@@ -116,16 +116,6 @@ hr { border: 1px solid #aeacb5;}
     margin-left: 5px;
     margin-top: 200px;
 }
-.passphoto {
-    width: 200px;
-    height: 200px;
-    transition: transform .2s;
-    margin-left: 50px;
-    margin-top: 70px;
-}
-.passphoto:hover {
-    transform: scale(1.8);
-}
 .myname {
     grid-row: 2;
     grid-column: 3/3;
@@ -138,7 +128,16 @@ hr { border: 1px solid #aeacb5;}
     margin-left: 350px;
     margin-top: -400px;}
 }
-
+.passphoto {
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.passphoto:hover {
+    transform: scale(1.8);
+}
 
 .secondarycontent {
     display: grid;
